@@ -92,7 +92,8 @@
     </script>
     {% endif %}
 
-    <script type="text/javascript" src="instafeed.min.js"></script>
+    {% if page.title == "Photo" %}
+    <script type="text/javascript" src="/instafeed.min.js"></script>
     <script>
       var feed = new Instafeed({
         //clientId: 'c432388829ab4e369de130e5c08e0aa8',
@@ -106,5 +107,6 @@
       	feed.run();
       };
     </script>
+    {% endif %}
 
 </head>
