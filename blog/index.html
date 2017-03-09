@@ -5,10 +5,9 @@ tags: blog
 ---
 
 <div class="blog">
-  {% for tag in site.categories %}
-  <h3 class="h3 post-title">{% tag[0] %}</h3>
+  {% for category in site.categories %}
   <div class="posts">
-    {% for post in tag[1] %}
+    {% for post in site.categories[category] %}
       <div class="post py3">
         <p class="post-meta">{{ post.date | date: site.date_format }}</p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
