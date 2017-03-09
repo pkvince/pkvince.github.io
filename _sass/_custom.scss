@@ -17,6 +17,7 @@
   background-image: none;
   text-shadow: none;
 }
+
 #instagram {
   display: -webkit-box;
   display: -webkit-flex;
@@ -50,6 +51,7 @@
   -webkit-transition: opacity .2s ease-in-out;
   transition: opacity .2s ease-in-out;
   border: .5vw solid transparent;
+  background: transparent;
 }
 
 #instagram img {
@@ -57,7 +59,7 @@
 }
 
 #instagram a:hover {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 #instagram:hover a {
