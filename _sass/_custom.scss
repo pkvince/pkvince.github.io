@@ -56,6 +56,14 @@
     width: 100%;
 }
 
+#instagram a:hover {
+    opacity: 1;
+}
+
+#instagram:hover a {
+    opacity: .8;
+}
+
 @media screen and (min-width: 1450px) {
   #instagram a {
     -webkit-flex-basis: calc(100%/4);
