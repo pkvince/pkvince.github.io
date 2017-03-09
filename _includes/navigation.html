@@ -3,7 +3,7 @@
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
 {% endfor %}
-% for page in site.pages %}
+{% for page in site.pages %}
     {% if page.tags contains "blog" %}
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
