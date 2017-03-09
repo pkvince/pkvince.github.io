@@ -1,0 +1,30 @@
+.g-profile {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    height: 80px;
+    width: 80px;
+}
+.g-profile .pic {
+    background-image: url(https://gravatar.com/avatar/8f153df2b0c02161ba0ab0fca111afdb.jpg?s=160);
+    background-size: 80px 80px;
+    border: none;
+    vertical-align: top;
+    height: 80px;
+    width: 80px;
+}
+.share-links a {
+  background-image: none;
+  text-shadow: none;
+}
+
+@media screen and (min-width: $viewport-small) {
+    .g-profile {
+        display: inline-block;
+        margin: 0 20px 0 0;
+        float: left;
+    }
+    .site-title {
+        line-height: 80px;
+    }
+}
