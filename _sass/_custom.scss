@@ -56,7 +56,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 1450px) {}
+@media screen and (min-width: 1450px) {
   #instagram a {
     -webkit-flex-basis: calc(100%/4);
     -ms-flex-preferred-size: calc(100%/4);
