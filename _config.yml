@@ -1,27 +1,27 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Vincent Martel
+email:       vincentmartel.ing@gmail.com
+author:      Vincent Martel
+description: "My jekyll blog hosted on github"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://vincentmartel.com"
 date_format: "%b %-d, %Y"
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: 'UA-70917956-1'
 google_tag_manager:
 # Bing services
 bing_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
+animated:             true
+show_related_posts:   true
+show_post_footers:    true
+show_social_icons:    true
+ajaxify_contact_form: true
 enable_mathjax: false
 extended_fonts: false
 enable_anchorjs: false
@@ -42,14 +42,14 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: pkvince
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: pkvince
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: vincentmartel
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -57,16 +57,16 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
 share_digg: false
 share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
+share_reddit: true
+share_stumbleupon: true
 share_hackernews: false
 
 text:
@@ -100,7 +100,7 @@ text:
       sent:     'Message sent!'
       error:    'Error!'
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+  og_locale: 'en_CA'
 
 # Build settings
 markdown:     kramdown
