@@ -58,12 +58,12 @@
     width: 100%;
 }
 
-#instagram a:hover {
-    opacity: 1 !important;
-}
-
 #instagram:hover a {
     opacity: .8;
+}
+
+#instagram a:hover {
+    opacity: 1;
 }
 
 @media screen and (min-width: 1450px) {
