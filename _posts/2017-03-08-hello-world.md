@@ -3,7 +3,7 @@ layout:     post
 title:      Hello World!
 date:       2017-03-08
 summary:    Hello, is this thing on?
-categories: uncategorized
+categories: computing
 ---
 
 Mic check. 1-2. 1-2. Check. CHECK.

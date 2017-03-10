@@ -6,6 +6,7 @@ description: "My jekyll blog hosted on github"
 baseurl:     ""
 url:         "http://vincentmartel.com"
 date_format: "%b %-d, %Y"
+permalink:   /:title/
 
 # Google services
 google_verification:
@@ -57,7 +58,7 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
@@ -68,6 +69,24 @@ share_tumblr: false
 share_reddit: true
 share_stumbleupon: true
 share_hackernews: false
+
+# Collection Defaults
+defaults:
+- scope:
+    type: posts
+  values:
+    layout: post
+    permalink: /:categories/:year/:month/:title
+- scope:
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: _posts/portfolio
+    type: posts
+  values:
+    layout: post
+    permalink: /projects/:title/
 
 text:
   pagination:
